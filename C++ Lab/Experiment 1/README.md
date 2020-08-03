@@ -1,7 +1,7 @@
 #  Experiment1
 
 ## Aim of the Experiment
-To dispaly the names and roll numbers of students
+To display the names and roll numbers of students
 
 ### Step-by-step procedure
 1.
