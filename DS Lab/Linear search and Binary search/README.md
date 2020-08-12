@@ -3,11 +3,11 @@
 
 ## Aim of the Experiment
 Write a program that use both recursive and non-recursive functions to perform the following searching operations for a Key value in a given list of integers:
-Array : 12, 61, 33, 92, 36, 3, 29, 98, 54, 60
-(i) Linear search
-Key element to be searched : 36, 100
-(ii) Binary search
-Key element to be searched : 12, 92, 33
+#Array : 12, 61, 33, 92, 36, 3, 29, 98, 54, 60
+#(i) Linear search
+#Key element to be searched : 36, 100
+#(ii) Binary search
+#Key element to be searched : 12, 92, 33
 
 
 ### Brief description of Linear search and Binary search
