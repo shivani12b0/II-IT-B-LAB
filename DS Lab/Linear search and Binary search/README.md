@@ -3,11 +3,11 @@
 
 ## Aim of the Experiment
 Write a program that use both recursive and non-recursive functions to perform the following searching operations for a Key value in a given list of integers:
-#Array : 12, 61, 33, 92, 36, 3, 29, 98, 54, 60
-#(i) Linear search
-#Key element to be searched : 36, 100
-#(ii) Binary search
-#Key element to be searched : 12, 92, 33
+Array : 12, 61, 33, 92, 36, 3, 29, 98, 54, 60
+(i) Linear search
+Key element to be searched : 36, 100
+(ii) Binary search
+Key element to be searched : 12, 92, 33
 
 
 ### Brief description of Linear search and Binary search
@@ -25,17 +25,54 @@ There are two basic searches for arrays:
    We repeat this process until we find the target or satisfy ourselves
    that it is not in the list. 
    To find the middle of the list we three variables,
-   one to identify the beginning of the list(first)
-   one to identify the beginning of the list(mid)
-   one to identify the beginning of the list(last)
-   mid=( first + last )/2
+   one to identify the beginning of the list(first),
+   one to identify the beginning of the list(mid),
+   one to identify the beginning of the list(last),
+   where mid=( first + last )/2
    
 
 #### Step-by-step procedure
-1.
-2.
-3.
-4.
-5.
+####### Linear search
+############1.start
+############2.read n
+############3.read elements of list (a[])
+############4.read element to be searched(item)
+############5.initialize found=0
+############6. for(i=0;i<n;i++)
+############7. {
+############## If(a[i]==item)
+############## {
+############## found=1
+############## Break
+############## }
+############## }
+############8.if (found==1)
+##############then print element a[i] is found i th location
+##############else
+##############print element not found
+############9.stop
+
+####### Binary search
+############1.start
+############2.read n
+############3.read elements of list (a[])
+############4.read first = 0 last = n - 1,  mid
+############5.read element to be searched(item)
+############6.while ( first <= last ) {
+############7.mid = (first + last) / 2;
+##############if ( a[mid] == target )
+##############return mid;
+##############if ( a[mid] > target )
+##############last = mid - 1;
+##############else
+##############first = mid + 1;
+##############}
+##############return -1:
+##############}
+############8.if (found==1)
+##############then print element a[i] is found i th location
+##############else
+##############print element not found
+############9.stop
 
 ##### Output obtained
