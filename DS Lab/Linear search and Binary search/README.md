@@ -76,13 +76,23 @@ There are two basic searches for arrays:
 ###### 9.stop
 
 #### Output obtained
+##### Linear search (Iterative) output 1
 ![output](linearsearchiterativeoutput1.png)
+##### Linear search (Iterative) output 2
 ![output](linearsearchiterativeoutput2.png)
+##### Linear search (Recursive) output 1
 ![output](linearsearchrecursiveoutput1.png)
+##### Linear search (Recursive) output 2
 ![output](linearsearchrecursiveoutput2.png)
+##### Binary search (Iterative) output 1
 ![output](binarysearchiterativeoutput1.png)
+##### Binary search (Iterative) output 2
 ![output](binarysearchiterativeoutput2.png)
+##### Binary search (Iterative) output 3
 ![output](binarysearchiterativeoutput3.png)
+##### Binary search (Recursive) output 1
 ![output](binarysearchrecursiveoutput1.png)
+##### Binary search (Recursive) output 2
 ![output](binarysearchrecursiveoutput2.png)
+##### Binary search (Recursive) output 3
 ![output](binarysearchrecursiveoutput3.png)
