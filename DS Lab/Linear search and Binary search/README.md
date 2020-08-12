@@ -33,46 +33,46 @@ There are two basic searches for arrays:
 
 #### Step-by-step procedure
 ####### Linear search
-############1.start
-############2.read n
-############3.read elements of list (a[])
-############4.read element to be searched(item)
-############5.initialize found=0
-############6. for(i=0;i<n;i++)
-############7. {
+############ 1.start
+############ 2.read n
+############ 3.read elements of list (a[])
+############ 4.read element to be searched(item)
+############ 5.initialize found=0
+############ 6. for(i=0;i<n;i++)
+############ 7. {
 ############## If(a[i]==item)
 ############## {
 ############## found=1
 ############## Break
 ############## }
 ############## }
-############8.if (found==1)
-##############then print element a[i] is found i th location
-##############else
-##############print element not found
-############9.stop
+############ 8.if (found==1)
+############## then print element a[i] is found i th location
+############## else
+############## print element not found
+############ 9.stop
 
 ####### Binary search
-############1.start
-############2.read n
-############3.read elements of list (a[])
-############4.read first = 0 last = n - 1,  mid
-############5.read element to be searched(item)
-############6.while ( first <= last ) {
-############7.mid = (first + last) / 2;
-##############if ( a[mid] == target )
-##############return mid;
-##############if ( a[mid] > target )
-##############last = mid - 1;
-##############else
-##############first = mid + 1;
-##############}
-##############return -1:
-##############}
-############8.if (found==1)
-##############then print element a[i] is found i th location
-##############else
-##############print element not found
-############9.stop
+############ 1.start
+############ 2.read n
+############ 3.read elements of list (a[])
+############ 4.read first = 0 last = n - 1,  mid
+############ 5.read element to be searched(item)
+############ 6.while ( first <= last ) {
+############ 7.mid = (first + last) / 2;
+############## if ( a[mid] == target )
+############## return mid;
+############## if ( a[mid] > target )
+############## last = mid - 1;
+############## else
+############## first = mid + 1;
+############## }
+############## return -1:
+############## }
+############ 8.if (found==1)
+############## then print element a[i] is found i th location
+############## else
+############## print element not found
+############ 9.stop
 
 ##### Output obtained
