@@ -75,10 +75,28 @@ There are two basic searches for arrays:
 ###### print element not found
 ###### 9.stop
 
-#### Output obtained
-##### Linear search (Iterative) output 1
+## Output obtained
+### Linear search (Iterative) output 1
+#### Procedure of obtaining output:
+##### In case of linear search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 36)
+###### 3. The complier searches the key element from the given array, beginning with the first element.
+###### 4. It matches the key element with the elements present in the array.
+###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found in the index '
+###### 6. And if the key element is not matched with any element of the array, it returns as 'The key element is not found'
+###### 7. In this case, it prints '36 is found at the index 4' as the element is present in the given array.
 ![output](linearsearchiterativeoutput1.png)
 ##### Linear search (Iterative) output 2
+#### Procedure of obtaining output:
+##### In case of linear search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 100)
+###### 3. The complier searches the key element from the given array, beginning with the first element.
+###### 4. It matches the key element with the elements present in the array.
+###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found in the index '
+###### 6. And if the key element is not matched with any element of the array, it returns as 'The key element is not found'
+###### 7. In this case, it prints '100 is not found' as the element is absent in the given array.
 ![output](linearsearchiterativeoutput2.png)
 ##### Linear search (Recursive) output 1
 ![output](linearsearchrecursiveoutput1.png)
