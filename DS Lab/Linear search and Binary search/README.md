@@ -75,42 +75,138 @@ There are two basic searches for arrays:
 ###### print element not found
 ###### 9.stop
 
-## Output obtained
-### Linear search (Iterative) output 1
-#### Procedure of obtaining output:
+### Output obtained
+#### Linear search (Iterative) output 1
+##### Procedure of obtaining output:
 ##### In case of linear search,
 ###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
 ###### 2. The key element to be searched to be entered.(here it is 36)
 ###### 3. The complier searches the key element from the given array, beginning with the first element.
 ###### 4. It matches the key element with the elements present in the array.
-###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found in the index '
+###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found at the index '
 ###### 6. And if the key element is not matched with any element of the array, it returns as 'The key element is not found'
 ###### 7. In this case, it prints '36 is found at the index 4' as the element is present in the given array.
 ![output](linearsearchiterativeoutput1.png)
-##### Linear search (Iterative) output 2
-#### Procedure of obtaining output:
+#### Linear search (Iterative) output 2
+##### Procedure of obtaining output:
 ##### In case of linear search,
 ###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
 ###### 2. The key element to be searched to be entered.(here it is 100)
 ###### 3. The complier searches the key element from the given array, beginning with the first element.
 ###### 4. It matches the key element with the elements present in the array.
-###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found in the index '
+###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found at the index '
 ###### 6. And if the key element is not matched with any element of the array, it returns as 'The key element is not found'
 ###### 7. In this case, it prints '100 is not found' as the element is absent in the given array.
 ![output](linearsearchiterativeoutput2.png)
-##### Linear search (Recursive) output 1
+####  Linear search (Recursive) output 1
+##### Procedure of obtaining output: 
+##### In case of linear search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 36)
+###### 3. The complier searches the key element from the given array, beginning with the first element.
+###### 4. It matches the key element with the elements present in the array.
+###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found at the index '
+###### 6. And if the key element is not matched with any element of the array, it returns as 'The key element is not found'
+###### 7. In this case, it prints '36 is found at the index 4' as the element is present in the given array.
 ![output](linearsearchrecursiveoutput1.png)
-##### Linear search (Recursive) output 2
+#### Linear search (Recursive) output 2
+##### Procedure of obtaining output:
+##### In case of linear search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 100)
+###### 3. The complier searches the key element from the given array, beginning with the first element.
+###### 4. It matches the key element with the elements present in the array.
+###### 5. If the key element and element in the array are equal, the output is obtained as 'The key element is found at the index '
+###### 6. And if the key element is not matched with any element of the array, it returns as 'The key element is not found'
+###### 7. In this case, it prints '100 is not found' as the element is absent in the given array.
 ![output](linearsearchrecursiveoutput2.png)
-##### Binary search (Iterative) output 1
+#### Binary search (Iterative) output 1
+##### Procedure of obtaning output:
+##### In case of binary search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 12)
+###### 3. Find the middle element in the sorted list.
+###### 4. Compare the key element with the middle element in the sorted list.
+###### 5. If both are matched, then display "The key element is found at the index " and terminate the function.
+###### 6. If both are not matched, then check whether the search element is smaller or larger than the middle element.
+###### 7. If the search element is smaller than middle element, repeat steps 3, 4, 5 and 6 for the left sublist of the middle element.
+###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
+###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
+###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
+###### 11. In this case, it prints '12 is found at the index 1'
 ![output](binarysearchiterativeoutput1.png)
 ##### Binary search (Iterative) output 2
+##### Procedure of obtaning output:
+##### In case of binary search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 92)
+###### 3. Find the middle element in the sorted list.
+###### 4. Compare the key element with the middle element in the sorted list.
+###### 5. If both are matched, then display "The key element is found at the index " and terminate the function.
+###### 6. If both are not matched, then check whether the search element is smaller or larger than the middle element.
+###### 7. If the search element is smaller than middle element, repeat steps 3, 4, 5 and 6 for the left sublist of the middle element.
+###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
+###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
+###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
+###### 11. In this case, it prints '92 is found at the index 4'
 ![output](binarysearchiterativeoutput2.png)
 ##### Binary search (Iterative) output 3
+##### Procedure of obtaning output:
+##### In case of binary search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 33)
+###### 3. Find the middle element in the sorted list.
+###### 4. Compare the key element with the middle element in the sorted list.
+###### 5. If both are matched, then display "The key element is found at the index " and terminate the function.
+###### 6. If both are not matched, then check whether the search element is smaller or larger than the middle element.
+###### 7. If the search element is smaller than middle element, repeat steps 3, 4, 5 and 6 for the left sublist of the middle element.
+###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
+###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
+###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
+###### 11. In this case, it prints '33 is found at the index 3'
 ![output](binarysearchiterativeoutput3.png)
 ##### Binary search (Recursive) output 1
+##### Procedure of obtaning output:
+##### In case of binary search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 12)
+###### 3. Find the middle element in the sorted list.
+###### 4. Compare the key element with the middle element in the sorted list.
+###### 5. If both are matched, then display "The key element is found at the index " and terminate the function.
+###### 6. If both are not matched, then check whether the search element is smaller or larger than the middle element.
+###### 7. If the search element is smaller than middle element, repeat steps 3, 4, 5 and 6 for the left sublist of the middle element.
+###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
+###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
+###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
+###### 11. In this case, it prints '12 is found at the index 1'
 ![output](binarysearchrecursiveoutput1.png)
 ##### Binary search (Recursive) output 2
+##### Procedure of obtaning output:
+##### In case of binary search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 92)
+###### 3. Find the middle element in the sorted list.
+###### 4. Compare the key element with the middle element in the sorted list.
+###### 5. If both are matched, then display "The key element is found at the index " and terminate the function.
+###### 6. If both are not matched, then check whether the search element is smaller or larger than the middle element.
+###### 7. If the search element is smaller than middle element, repeat steps 3, 4, 5 and 6 for the left sublist of the middle element.
+###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
+###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
+###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
+###### 11. In this case, it prints '92 is found at the index 4'
 ![output](binarysearchrecursiveoutput2.png)
 ##### Binary search (Recursive) output 3
+##### Procedure of obtaning output:
+##### In case of binary search,
+###### 1. Read the number of array elements and the elements of the array.(here array = 12, 61, 33, 92, 36, 3, 29, 98, 54, 60, n = 10)
+###### 2. The key element to be searched to be entered.(here it is 33)
+###### 3. Find the middle element in the sorted list.
+###### 4. Compare the key element with the middle element in the sorted list.
+###### 5. If both are matched, then display "The key element is found at the index " and terminate the function.
+###### 6. If both are not matched, then check whether the search element is smaller or larger than the middle element.
+###### 7. If the search element is smaller than middle element, repeat steps 3, 4, 5 and 6 for the left sublist of the middle element.
+###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
+###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
+###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
+###### 11. In this case, it prints '33 is found at the index 3'
 ![output](binarysearchrecursiveoutput3.png)
