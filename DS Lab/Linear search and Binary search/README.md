@@ -148,7 +148,7 @@ There are two basic searches for arrays:
 ###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
 ###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
 ###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
-###### 11. In this case, it prints '92 is found at the index 4'
+###### 11. In this case, it prints '92 is found at the index 7'
 ![output](binarysearchiterativeoutput2.png)
 ##### Binary search (Iterative) output 3
 ##### Procedure of obtaning output:
@@ -193,7 +193,7 @@ There are two basic searches for arrays:
 ###### 8. If the search element is larger than middle element, repeat steps 3, 4, 5 and 6 for the right sublist of the middle element.
 ###### 9. Repeat the same process until we find the search element in the list or until sublist contains only one element.
 ###### 10. If that element also doesn't match with the search element, then display "Element is not found" and terminate the function.
-###### 11. In this case, it prints '92 is found at the index 4'
+###### 11. In this case, it prints '92 is found at the index 7'
 ![output](binarysearchrecursiveoutput2.png)
 ##### Binary search (Recursive) output 3
 ##### Procedure of obtaning output:
