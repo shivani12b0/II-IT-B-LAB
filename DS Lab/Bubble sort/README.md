@@ -18,9 +18,9 @@ If the current element is less than the next element, move to the next element. 
 
 ## Output obtained:
 
-### Output of bubble sorting of sorted array
+### Bubble sorting of sorted array
 ![output](bubblesortoutput1.png)
 
-### Output of bubble sorting of unsorted array
+### Bubble sorting of unsorted array
 ![output](bubblesortoutput2.png)
 
