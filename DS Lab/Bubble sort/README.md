@@ -17,5 +17,10 @@ If the current element is greater than the next element of the array, swap them.
 If the current element is less than the next element, move to the next element. Repeat Step 1.
 
 ## Output obtained:
+
+### Output of bubble sorting of sorted array
 ![output](bubblesortoutput1.png)
+
+### Output of bubble sorting of unsorted array
 ![output](bubblesortoutput2.png)
+
