@@ -12,9 +12,10 @@ If the given array has to be sorted in ascending order, then bubble sort will st
 If we have total n elements, then we need to repeat this process for n-1 times.
 
 ## Step-by-step-procedure:
-Starting with the first element, compare the current element with the next element of the array.
-If the current element is greater than the next element of the array, swap them.
-If the current element is less than the next element, move to the next element. Repeat Step 1.
+##### 1. Starting with the first element, compare the current element with the next element of the array.
+##### 2. If the current element is greater than the next element of the array, swap them.
+##### 3. If the current element is less than the next element, move to the next element. 
+##### 4. Repeat Step 1.
 
 ## Output obtained:
 
