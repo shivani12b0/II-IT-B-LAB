@@ -20,6 +20,10 @@ If we have total n elements, then we need to repeat this process for n-1 times.
 ## Output obtained:
 
 ### Bubble sorting of sorted array
+#### Procedure of obtaining output:
+1. Read elements of the array and number of the array elements.
+2. 
+
 ![output](bubblesortoutput1.png)
 
 ### Bubble sorting of unsorted array
