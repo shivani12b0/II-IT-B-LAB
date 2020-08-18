@@ -22,7 +22,10 @@ If we have total n elements, then we need to repeat this process for n-1 times.
 ### Bubble sorting of sorted array
 #### Procedure of obtaining output:
 1. Read elements of the array and number of the array elements.
-2. 
+2. Here n = 5 and array = {1, 2, 3, 4, 5}
+3. In bubble sorting, the elements of the array are swapped and arranged in ascending order.
+4. But, in this case, the elements are already sorted.
+5. So, after entering the elements(that are already sorted), it prints "The elements are already sorted."
 
 ![output](bubblesortoutput1.png)
 
