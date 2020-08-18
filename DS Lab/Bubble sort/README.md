@@ -1,8 +1,9 @@
 # Bubble Sort
 ## Aim of the experiment:
-To perform bubble sort of an unsorted and sorted array.
-###### Array (i):  1, 2, 3, 4, 5.
-###### Array (ii): 8, 6, 4, 7, 2.
+To perform bubble sort of a sorted array and two unsorted arrays.
+###### Array (i):   1, 2, 3, 4, 5.
+###### Array (ii):  6, -4, 2, 5, -9.
+###### Array (iii): 8, 6, 4, 7, 2.
 
 ## Brief description of Bubble sort:
 Bubble Sort is a simple algorithm which is used to sort a given set of n elements provided in form of an array with n number of elements. Bubble Sort compares all the element one by one with the adjacent elements and sort them based on their values.
@@ -19,7 +20,7 @@ If we have total n elements, then we need to repeat this process for n-1 times.
 
 ## Output obtained:
 
-### Bubble sorting of sorted array
+### (i) Bubble sorting of sorted array
 #### Procedure of obtaining output:
 1. Read elements of the array and number of the array elements.
 2. Here n = 5 and array = {1, 2, 3, 4, 5}
@@ -29,7 +30,24 @@ If we have total n elements, then we need to repeat this process for n-1 times.
 
 ![output](bubblesortoutput1.png)
 
-### Bubble sorting of unsorted array
+### (i) Bubble sorting of sorted array
+#### Procedure of obtaining output:
+1. Read elements of the array and number of the array elements.
+2. Here n = 5 and array = {6, -4, 2, 5, -9}
+3. As the number of elements are 5, the number of iterations will be 4(n-1).
+4. Starting with the first element(6),it compares itself with the adjacent element(-4).
+5. As 6 is greater than -4, it swaps with -4 and -4 becomes the first element.
+6. Now second element is 6, it again compares with it's adjacent element 2.
+7. And as again 6 is greater than 2, it swaps.So 2 becomes the second element.
+8. Now, the third element 6, compares to 5. And as 5 is smaller than 6, it swaps.
+9. Further, the fourth element 6 swaps with -9 as -9 is smaller than 6.
+10. And here, the greatest element(6) remains at the last, as the iteration 1 ends.
+11. All the further iterations follow the same pattern, resembling from step 4.
+12. At the end,the elements are sorted and the ouput gets printed in the sorted order as "-9, -4, 2, 5, 6."
+
+![output](bubblesortoutput2.png)
+
+### (iii) Bubble sorting of unsorted array
 #### Procedure of obtaining output:
 1. Read elements of the array and number of the array elements.
 2. Here n = 5 and array = {8, 6, 4, 7, 2}
@@ -44,5 +62,5 @@ If we have total n elements, then we need to repeat this process for n-1 times.
 11. All the further iterations follow the same pattern, resembling from step 4.
 12. At the end,the elements are sorted and the ouput gets printed in the sorted order as "2, 4, 6, 7, 8."
 
-![output](bubblesortoutput2.png)
+![output](bubblesortoutput3.png)
 
